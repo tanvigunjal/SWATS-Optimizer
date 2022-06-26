@@ -14,7 +14,7 @@ We then compared the results for three optimizers: Adam, SGD and SWATS, with lea
 * batch_size = 128
 * epochs = 150
 * initial learning rate = 0.01
-* threshold to switch \epsilon = 10^-5 (In the paper \epsilon = 10^-9)
+* threshold to switch Ε = 10 $$e^{-5}$$ (In the paper \epsilon = 10^-9)
 * loss_function = Cross Entropy loss
 
 # Results
