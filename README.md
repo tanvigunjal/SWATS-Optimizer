@@ -7,14 +7,15 @@ Adaptive optimization methods like RMSprop, Adagrad or Adam generalizes poorly d
 Adam has fast initial progress and good performance with default hyper-parameters, and SGD has good generalization properties. SWATS from aaaaaaaaaaaa is a method proposed to automatically switch from Adam to SGD when a triggering condition is satisfied. The SGD learning rate and switchover point from adam to SGD are both learned as a part of training process. The projection of the Adam step on the gradient subspace are monitored and use its exponential average as an estimate for the SGD learning rate after the switchover. The switchover is triggered when no chnage in this monitored quantity is detected.
 
 # Experiment
-
-
+To perform analysis we used ResNet-34 and DenseNet architectures on CIFAR-10 dataset. Dataset has 60000 images, which is divided into train set (40000 images), validation set (10000 images) and test set(10000 images).
+We then compared the results for three optimizers: Adam, SGD and SWATS, with learning rate 0.001 and threshold 1e-5.
 
 # Setup
 * batch_size = 128
 * epochs = 150
 * initial learning rate = 0.01
-* threshold to switch \epsilon E = 10^-5 (In the paper \epsilon = 10^-9)
+* threshold to switch \epsilon = 10^-5 (In the paper \epsilon = 10^-9)
+* loss_function = Cross Entropy loss
 
 # Results
 
