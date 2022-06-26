@@ -8,8 +8,12 @@ Adam has fast initial progress and good performance with default hyper-parameter
 
 # Experiment
 
+
 # Setup
 * batch_size = 128
+* epochs = 150
+* initial learning rate = 0.01
+* threshold to switch = 10^-5
 
 # Results
 
