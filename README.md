@@ -18,6 +18,10 @@ We then compared the results for three optimizers: Adam, SGD and SWATS, with lea
 * loss_function = Cross Entropy loss
 
 # Results
+| Model | Optimizer | Step | Learning_Rate | Test Accuracy |
+| ----- | --------- | ---- | ------------- | ------------- |
+|ResNet-34 | SGD |  |  |  |
+
 
 # Conclusion 
 
