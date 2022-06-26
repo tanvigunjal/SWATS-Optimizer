@@ -9,11 +9,12 @@ Adam has fast initial progress and good performance with default hyper-parameter
 # Experiment
 
 
+
 # Setup
 * batch_size = 128
 * epochs = 150
 * initial learning rate = 0.01
-* threshold to switch \epsilonE = 10^-5 (In the paper \epsilon = 10^-9)
+* threshold to switch \epsilon E = 10^-5 (In the paper \epsilon = 10^-9)
 
 # Results
 
