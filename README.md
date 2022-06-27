@@ -21,7 +21,7 @@ We then compared the results for three optimizers: Adam, SGD and SWATS, with lea
 | Model | Optimizer | Step | Learning_Rate | Test Accuracy |
 | ----- | --------- | ---- | ------------- | ------------- |
 |ResNet-34 | SGD |  |  |  |
-|ResNet-34 | Adam | - |initial LR: 0.001  | 93% |
+|ResNet-34 | Adam | - |intial LR: 0.001  | 93% |
 |ResNet-34 | SWATS |  |  |  |
 |DenseNet-121| SGD |  |  |  |
 |DenseNet-121| Adam |  |  |  |
